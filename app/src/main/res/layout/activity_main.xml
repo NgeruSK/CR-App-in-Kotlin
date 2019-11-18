@@ -35,10 +35,18 @@
     android:visibility="gone" />
 
     <include
+        android:id="@+id/login_idx"
+        layout="@layout/login_index"
+        android:visibility="gone"/>
+    <include
         android:id="@+id/registration_layout"
         layout="@layout/user_registration"
         android:visibility="gone"/>
-
+<include
+    android:id="@+id/products_add"
+    layout="@layout/add_product"
+    android:visibility="gone"
+    />
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="192dp"

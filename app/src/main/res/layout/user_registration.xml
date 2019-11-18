@@ -2,33 +2,52 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_margin="15dp"
+    android:layout_marginTop="50dp"
     android:layout_height="match_parent">
-
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Register With Us"
+    android:textStyle="bold"
+    android:layout_gravity="center"
+   />
     <EditText
         android:id="@+id/txtName"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
         android:hint="Username" />
 
     <EditText
         android:id="@+id/txtEmail"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
         android:hint="E-mail"/>
 
     <EditText
         android:id="@+id/txtPassword"
-        android:layout_width="match_parent"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
         android:hint="Password"
         android:inputType="textPassword"/>
     <EditText
         android:id="@+id/txtPassword2"
-        android:layout_width="match_parent"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:hint="Confirm Password"
+        android:layout_gravity="center"
+        android:textAlignment="center"
         android:inputType="textPassword"/>
 
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal">
 
     <Button
         android:id="@+id/btnSave"
@@ -44,6 +63,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="cancel" />
+</LinearLayout>
+
 
 
 </LinearLayout>
